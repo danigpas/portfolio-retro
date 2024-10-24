@@ -145,7 +145,7 @@ def calendar() -> rx.Component:
                             
                             button(
                                 "Github",
-                                "https://github.com/Dani-Disofic/web-prote",
+                                "https://github.com/Dani-Disofic/portfolio-retro",
                                 
                                 # "Participa",
                                 # _gift_url(_current_day)
@@ -153,7 +153,7 @@ def calendar() -> rx.Component:
                             
                             button(
                                 "Proyecto",
-                                "https://github.com/Dani-Disofic/web-prote",
+                                "https://github.com/Dani-Disofic/portfolio-retro",
                                 
                                 # f"Día {_current_day}",
                                 # _gift_url(_current_day - 1)

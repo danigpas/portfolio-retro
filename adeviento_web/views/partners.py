@@ -14,7 +14,7 @@ def partners() -> rx.Component:
             ),
             rx.vstack(
                 
-                experiencia_text("coin","Disofic (actualmente)",False),
+                experiencia_text("coin","Disofic (2023 - actualmente)",False),
                 experiencia_text("coin","Relay (verano 2022)",False),
                 experiencia_text("coin","Carrefour (Junio-Septiembre 2021)",False),
                 

@@ -20,7 +20,7 @@ export default function Component() {
   <Script src={`/js/snow.js`} strategy={`afterInteractive`}/>
   <VStack sx={{"bg": "#212529", "position": "sticky", "borderBottom": "0.25em solid ('#D3D3D3',)", "paddingX": "2em", "paddingY": "1em", "zIndex": "999", "top": "0", "width": "100%"}}>
   <HStack sx={{"width": "100%"}}>
-  <Image alt={`Imagen pixel art de UN LOGO con mis iniciales.`} src={`logo_cocodrilo.png`} sx={{"width": "3em", "height": "3em"}}/>
+  <Image alt={`Imagen pixel art de UN LOGO con mis iniciales.`} src={`dani_navbar.png`} sx={{"width": "3em", "height": "3em"}}/>
   <Text>
   {`Daniel González`}
 </Text>
@@ -33,7 +33,7 @@ export default function Component() {
   <Link as={NextLink} className={`nes-icon twitch is-medium`} href={`https://twitch.tv/mouredev`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
   {``}
 </Link>
-  <Link as={NextLink} className={`nes-icon github is-medium`} href={`https://github.com/mouredev`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
+  <Link as={NextLink} className={`nes-icon github is-medium`} href={`https://github.com/Dani-Disofic`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
   {``}
 </Link>
 </HStack>
@@ -45,7 +45,7 @@ export default function Component() {
   {`Hi , I'm Daniel González `}
 </Heading>
   <Flex direction={["column", "column", "column", "row", "row"]}>
-  <Image alt={`Imagen pixel art de Daniel gonzalez generada por chatgpt.`} src={`avatar_dani.png`} sx={{"width": "16em", "height": "16em", "marginRight": "2em"}}/>
+  <Image alt={`Imagen pixel          art de Daniel gonzalez generada por chatgpt.`} src={`avatar_dani.png`} sx={{"width": "16em", "height": "16em", "marginRight": "2em"}}/>
   <VStack alignItems={`start`}>
   <Box className={`nes-balloon from-left is-dark`}>
   <Text>
@@ -98,12 +98,12 @@ export default function Component() {
   <Image src={`reflex_logo.png`} sx={{"width": "3em", "height": "3em"}}/>
   <Spacer/>
   <Flex direction={["column", "column", "column", "row", "row"]} sx={{"alignItems": "start"}}>
-  <Link as={NextLink} href={`https://github.com/Dani-Disofic/web-prote`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
+  <Link as={NextLink} href={`https://github.com/Dani-Disofic/portfolio-retro`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
   <Button className={`nes-btn is-error`} sx={{"marginBottom": "1em", "height": "2.75em", "color": "#212529 !important", "_hover": {"color": "#FFFFFF !important"}}}>
   {`Github`}
 </Button>
 </Link>
-  <Link as={NextLink} href={`https://github.com/Dani-Disofic/web-prote`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
+  <Link as={NextLink} href={`https://github.com/Dani-Disofic/portfolio-retro`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
   <Button className={`nes-btn is-error`} sx={{"marginBottom": "1em", "height": "2.75em", "color": "#212529 !important", "_hover": {"color": "#FFFFFF !important"}}}>
   {`Proyecto`}
 </Button>
@@ -158,7 +158,7 @@ export default function Component() {
   <HStack spacing={`1em`} sx={{"paddingBottom": "2.75em"}}>
   <Box className={`nes-icon is-medium coin`}/>
   <Heading size={`lg`} sx={{"color": "#212529", "fontFamily": "Press Start 2P"}}>
-  {`Disofic (actualmente)`}
+  {`Disofic (2023 - actualmente)`}
 </Heading>
 </HStack>
   <HStack spacing={`1em`} sx={{"paddingBottom": "2.75em"}}>
@@ -200,10 +200,10 @@ export default function Component() {
 </Heading>
 </HStack>
   <Flex direction={["column", "column", "column", "row", "row"]} sx={{"alignItems": "start", "spacing": "2em"}}>
-  <Avatar name={`Brais Moure`} size={`2xl`} src={`avatar.jpg`} sx={{"bg": "#212529", "padding": "2px", "border": "4px", "borderColor": ["#D3D3D3"], "marginRight": "0.5em", "marginBottom": "0.5em"}}/>
+  <Avatar name={`Brais Moure`} size={`2xl`} src={`logo_moure.jpeg`} sx={{"bg": "#212529", "padding": "2px", "border": "4px", "borderColor": ["#D3D3D3"], "marginRight": "0.5em", "marginBottom": "0.5em"}}/>
   <VStack alignItems={`start`} sx={{"width": "100%"}}>
   <Text as={`span`} sx={{"fontSize": "0.8em"}}>
-  {`Soy ingeniero de software desde hace más de 13 años.`}
+  {`Soy ingeniero de software desde hace más de 14 años.`}
 </Text>
   <Text as={`span`} sx={{"fontSize": "0.8em"}}>
   {`En 2018 comencé a divulgar contenido sobre programación y desarrollo de software en redes sociales como `}
@@ -238,17 +238,17 @@ export default function Component() {
   <Text sx={{"fontSize": "0.8em", "marginBottom": "0px !important"}}>
   {`Portfolio Personal Retro `}
 </Text>
-  <Link as={NextLink} href={`https://github.com/Dani-Disofic/web-prote`} isExternal={true} sx={{"fontSize": "0.8em", "color": "#D3D3D3", "textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
+  <Link as={NextLink} href={`https://github.com/Dani-Disofic/portfolio-retro`} isExternal={true} sx={{"fontSize": "0.8em", "color": "#D3D3D3", "textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
   {`Creado con `}
   <Box className={`nes-icon is-small heart`}/>
-  {` por Daniel González © 2024`}
+  {` por Daniel González © 2024 Todos los derechos reservados`}
 </Link>
 </VStack>
   <Spacer/>
   <Image alt={`Logo de un cocodrilo. `} className={`nes-avatar is-large`} src={`logo_cocodrilo.png`}/>
 </Center>
 </HStack>
-  <Link as={NextLink} href={`https://github.com/Dani-Disofic/web-prote`} isExternal={true} sx={{"alignItems": "end", "display": "flex", "marginTop": "0px !important", "textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
+  <Link as={NextLink} href={`https://github.com/Dani-Disofic/portfolio-retro`} isExternal={true} sx={{"alignItems": "end", "display": "flex", "marginTop": "0px !important", "textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
   <VStack>
   <VStack alignItems={`start`} className={`nes-balloon from-right is-dark`} sx={{"marginBottom": "2em"}}>
   <Text as={`span`} sx={{"fontSize": "0.8em"}}>

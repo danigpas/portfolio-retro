@@ -17,7 +17,7 @@ def author() -> rx.Component:
             rx.avatar(
                 name="Brais Moure",
                 size="2xl",
-                src="avatar.jpg",
+                src="logo_moure.jpeg",
                 bg=Color.PRIMARY.value,
                 padding="2px",
                 border="4px",

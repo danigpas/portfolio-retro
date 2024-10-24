@@ -8,7 +8,7 @@ def navbar() -> rx.Component:
     return rx.vstack(
         rx.hstack(
             rx.image(
-                src="logo_cocodrilo.png",
+                src="dani_navbar.png",
                 alt="Imagen pixel art de UN LOGO con mis iniciales.",
                 width="3em",
                 height="3em"

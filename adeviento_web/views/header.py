@@ -15,7 +15,7 @@ def header() -> rx.Component:
         rx.flex(
             rx.image(
                 src="avatar_dani.png",
-                alt="Imagen pixel art de Daniel gonzalez generada por chatgpt.",
+                alt="Imagen pixel          art de Daniel gonzalez generada por chatgpt.",
                 width="16em",
                 height="16em",
                 margin_right=Size.BIG.value
