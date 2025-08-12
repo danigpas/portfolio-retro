@@ -14,7 +14,9 @@ def instructions() -> rx.Component:
                 color=TextColor.ACCENT.value
             ),
             rx.span(
-                "•Certificado de Profesionalidad en Programación de Sistemas Informáticos (Con prácticas en Disofic S.L.U)"),
+                "•Grado Superior DAW (Cursando actualmente) "),
+            rx.span(
+                "•Certificado de Profesionalidad IFCT 0609 Programación de Sistemas Informáticos "),
             rx.span("• Ingeniería Informática en la Universidad de Málaga"),
             rx.span("• Bachillerato Científico-Tecnológico en IES Ben Gabirol"),
             # button(

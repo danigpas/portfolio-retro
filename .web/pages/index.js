@@ -33,7 +33,7 @@ export default function Component() {
   <Link as={NextLink} className={`nes-icon twitch is-medium`} href={`https://twitch.tv/mouredev`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
   {``}
 </Link>
-  <Link as={NextLink} className={`nes-icon github is-medium`} href={`https://github.com/Dani-Disofic`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
+  <Link as={NextLink} className={`nes-icon github is-medium`} href={`https://github.com/danigpas`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
   {``}
 </Link>
 </HStack>
@@ -49,25 +49,19 @@ export default function Component() {
   <VStack alignItems={`start`}>
   <Box className={`nes-balloon from-left is-dark`}>
   <Text>
-  {`Desarrollador Back-End`}
+  {`Desarrollador Back-End | Python`}
 </Text>
 </Box>
   <Text as={`span`} sx={{"fontSize": "0.8em"}}>
-  {`Llevo apenas un año desarrollando como programador back-end , ahora mismo especializado en  `}
+  {`Tengo 2+ años de experiencia en creación y gestión de APIS en FastAPI, además de sincronización de Odoo y bbdd MySQL o PostGreSQL, con mi stack enfocado principalmente en `}
   <Text as={`span`} sx={{"color": "#EA5940 !important", "fontSize": "1em"}}>
   {`Python`}
 </Text>
 </Text>
-  <Text as={`span`} sx={{"fontSize": "0.8em"}}>
-  {`Este proyecto está basado en la web de adviento.dev de Mouredev`}
-</Text>
-  <Link as={NextLink} href={`https://adviento.dev/`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
+  <Link as={NextLink} href={`https://www.linkedin.com/in/daniel-gonz%C3%A1lez-pascual-dev/`} isExternal={true} sx={{"textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
   <Button className={`nes-btn is-error`} sx={{"marginBottom": "1em", "height": "2.75em", "color": "#212529 !important", "_hover": {"color": "#FFFFFF !important"}}}>
-  {`Web adviento.dev`}
+  {`Mi Linkedin`}
 </Button>
-</Link>
-  <Link as={NextLink} href={`https://twitter.com/search?q=%23aDEViento2023&src=typed_query`} isExternal={true} sx={{"color": "#D3D3D3", "textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
-  {`#aDEViento2023`}
 </Link>
 </VStack>
 </Flex>
@@ -182,7 +176,10 @@ export default function Component() {
   {`Formación académica`}
 </Text>
   <Text as={`span`} sx={{"fontSize": "0.8em"}}>
-  {`•Certificado de Profesionalidad en Programación de Sistemas Informáticos (Con prácticas en Disofic S.L.U)`}
+  {`•Grado Superior DAW (Cursando actualmente) `}
+</Text>
+  <Text as={`span`} sx={{"fontSize": "0.8em"}}>
+  {`•Certificado de Profesionalidad IFCT 0609 Programación de Sistemas Informáticos `}
 </Text>
   <Text as={`span`} sx={{"fontSize": "0.8em"}}>
   {`• Ingeniería Informática en la Universidad de Málaga`}
@@ -196,14 +193,14 @@ export default function Component() {
   <HStack spacing={`1em`} sx={{"paddingBottom": "2.75em"}}>
   <Box className={`nes-icon is-medium like`}/>
   <Heading size={`md`} sx={{"color": "#EA5940 !important", "fontFamily": "Press Start 2P"}}>
-  {`Mención especial a  Brais Moure`}
+  {`Mención especial a  Brais Moure y adeviento.dev`}
 </Heading>
 </HStack>
   <Flex direction={["column", "column", "column", "row", "row"]} sx={{"alignItems": "start", "spacing": "2em"}}>
   <Avatar name={`Brais Moure`} size={`2xl`} src={`logo_moure.jpeg`} sx={{"bg": "#212529", "padding": "2px", "border": "4px", "borderColor": ["#D3D3D3"], "marginRight": "0.5em", "marginBottom": "0.5em"}}/>
   <VStack alignItems={`start`} sx={{"width": "100%"}}>
   <Text as={`span`} sx={{"fontSize": "0.8em"}}>
-  {`Soy ingeniero de software desde hace más de 14 años.`}
+  {`Soy ingeniero de software desde hace más de 15 años.`}
 </Text>
   <Text as={`span`} sx={{"fontSize": "0.8em"}}>
   {`En 2018 comencé a divulgar contenido sobre programación y desarrollo de software en redes sociales como `}
@@ -238,7 +235,7 @@ export default function Component() {
   <Text sx={{"fontSize": "0.8em", "marginBottom": "0px !important"}}>
   {`Portfolio Personal Retro `}
 </Text>
-  <Link as={NextLink} href={`https://github.com/Dani-Disofic/portfolio-retro`} isExternal={true} sx={{"fontSize": "0.8em", "color": "#D3D3D3", "textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
+  <Link as={NextLink} href={`https://github.com/danigpas/portfolio-retro`} isExternal={true} sx={{"fontSize": "0.8em", "color": "#D3D3D3", "textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
   {`Creado con `}
   <Box className={`nes-icon is-small heart`}/>
   {` por Daniel González © 2024 Todos los derechos reservados`}
@@ -248,7 +245,7 @@ export default function Component() {
   <Image alt={`Logo de un cocodrilo. `} className={`nes-avatar is-large`} src={`logo_cocodrilo.png`}/>
 </Center>
 </HStack>
-  <Link as={NextLink} href={`https://github.com/Dani-Disofic/portfolio-retro`} isExternal={true} sx={{"alignItems": "end", "display": "flex", "marginTop": "0px !important", "textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
+  <Link as={NextLink} href={`https://github.com/danigpas/portfolio-retro`} isExternal={true} sx={{"alignItems": "end", "display": "flex", "marginTop": "0px !important", "textDecoration": "none", "_hover": {"color": "#EA5940 !important", "textDecoration": "none"}}}>
   <VStack>
   <VStack alignItems={`start`} className={`nes-balloon from-right is-dark`} sx={{"marginBottom": "2em"}}>
   <Text as={`span`} sx={{"fontSize": "0.8em"}}>
@@ -271,14 +268,16 @@ export default function Component() {
 </Box>
   <NextHead>
   <title>
-  {`Calendario de aDEViento 2023 | 24 días. 24 regalos.`}
+  {`Portfolio retro`}
 </title>
-  <meta content={`Por tercer año, ¡aquí está el calendario de adviento sorpresa de nuestra comunidad de developers! Del 1 al 24 de diciembre.`} name={`description`}/>
-  <meta content={`https://adviento.dev/preview.jpg`} property={`og:image`}/>
+  <meta content={`Un portfolio realizado con pixel art`} name={`description`}/>
+  <meta content={`ssets
+oto_portfolio.PNG`} property={`og:image`}/>
   <meta content={`website`} name={`og:type`}/>
-  <meta content={`Calendario de aDEViento 2023 | 24 días. 24 regalos.`} name={`og:title`}/>
-  <meta content={`Por tercer año, ¡aquí está el calendario de adviento sorpresa de nuestra comunidad de developers! Del 1 al 24 de diciembre.`} name={`og:description`}/>
-  <meta content={`https://adviento.dev/preview.jpg`} name={`og:image`}/>
+  <meta content={`Portfolio retro`} name={`og:title`}/>
+  <meta content={`Un portfolio realizado con pixel art`} name={`og:description`}/>
+  <meta content={`ssets
+oto_portfolio.PNG`} name={`og:image`}/>
   <meta content={`summary_large_image`} name={`twitter:card`}/>
   <meta content={`@mouredev`} name={`twitter:site`}/>
 </NextHead>

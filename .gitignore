@@ -1,4 +1,28 @@
-*.db
-*.py[cod]
-.web
+*.db
+.venv
+*.py[cod]
+
+.web
+
 __pycache__/
+**/__pycache__/
+# Python
+__pycache__/
+*.pyc
+
+# Entornos
+.venv/
+venv/
+.env
+*.env
+
+# Reflex / NextJS artefactos
+.web/
+frontend.zip
+backend.zip
+.next/
+node_modules/
+
+# IDE
+.vscode/
+.idea/

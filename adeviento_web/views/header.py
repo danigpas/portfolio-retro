@@ -22,12 +22,12 @@ def header() -> rx.Component:
             ),
             rx.vstack(
                 rx.box(
-                    rx.text("Desarrollador Back-End"),
+                    rx.text("Desarrollador Back-End | Python"),
                     #rx.text("Especializado en Python , Flask y Django."),
                     class_name="nes-balloon from-left is-dark"
                 ),
                 rx.span(
-                    "Llevo apenas un año desarrollando como programador back-end , ahora mismo especializado en  ",
+                    "Tengo 2+ años de experiencia en creación y gestión de APIS en FastAPI, además de sincronización de Odoo y bbdd MySQL o PostGreSQL, con mi stack enfocado principalmente en ",
                     rx.span(
                         "Python",
                         color=TextColor.ACCENT.value,
@@ -35,22 +35,22 @@ def header() -> rx.Component:
                     ),
                    
                 ),
-                rx.span(
-                    "Este proyecto está basado en la web de adviento.dev de Mouredev"
-                ),
+                #rx.span(
+                #    "Este proyecto está basado en la web de adviento.dev de Mouredev"
+                #),
                 # rx.span(
                 #     "Su finalidad es ayudar a compartir conocimiento y fomentar el aprendizaje en comunidad."
                 # ),
                 button(
-                    "Web adviento.dev",
-                    constants.DISCORD_URL
+                    "Mi Linkedin",
+                    constants.LINKEDIN_URL
                 ),
-                rx.link(
-                    "#aDEViento2023",
-                    href=constants.ADEVIENTO_HASHTAG_URL,
-                    is_external=True,
-                    color=TextColor.TERTIARY.value
-                ),
+                # rx.link(
+                #     "#aDEViento2023",
+                #     href=constants.ADEVIENTO_HASHTAG_URL,
+                #     is_external=True,
+                #     color=TextColor.TERTIARY.value
+                # ),
                 align_items="start"
             ),
             direction=styles.FLEX_DIRECTION

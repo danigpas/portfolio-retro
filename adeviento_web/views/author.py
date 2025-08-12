@@ -11,7 +11,7 @@ def author() -> rx.Component:
     return rx.vstack(
         header_text(
             "like",
-            "Mención especial a  Brais Moure"
+            "Mención especial a  Brais Moure y adeviento.dev"
         ),
         rx.flex(
             rx.avatar(
