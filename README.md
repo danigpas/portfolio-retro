@@ -54,7 +54,7 @@ reflex export
 
 ## 📸 Capturas
 
-> *![Vista previa del portfolio](portfolio_retro\portfolio-retro\assets\foto_portfolio.PNG)
+> *![Vista previa del portfolio](assets/foto_portfolio.PNG)
 *
 
 ---
